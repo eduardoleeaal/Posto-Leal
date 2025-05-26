@@ -9,8 +9,8 @@ public class Cliente extends Pessoa{
     }
 
     @Override
-    public void exibirInformacoes() {
-        super.exibirInformacoes();
-        System.out.println("ID Cliente: " + this.idCliente);
+    public String exibirInformacoes() {
+        return super.exibirInformacoes() +
+                "\nID Cliente: " + this.idCliente;
     }
 }

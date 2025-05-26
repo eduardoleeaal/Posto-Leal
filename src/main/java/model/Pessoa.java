@@ -9,9 +9,9 @@ public abstract class Pessoa {
         this.cpf = cpf;
     }
 
-    public void exibirInformacoes(){
-        System.out.println("Nome: " + this.nome);
-        System.out.println("CPF: " + this.cpf);
+    public String exibirInformacoes(){
+        return "Nome: " + this.nome +
+                "\nCPF: " + this.cpf;
     }
 
     public String getNome() {

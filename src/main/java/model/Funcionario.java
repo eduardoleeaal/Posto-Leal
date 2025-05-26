@@ -9,8 +9,8 @@ public class Funcionario extends Pessoa{
     }
 
     @Override
-    public void exibirInformacoes(){
-        super.exibirInformacoes();
-        System.out.println("Matricula: " + this.matricula);
+    public String exibirInformacoes() {
+        return super.exibirInformacoes() +
+                "\nMatricula: " + this.matricula;
     }
 }

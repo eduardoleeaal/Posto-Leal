@@ -1,6 +1,6 @@
 package model;
 
-import model.exceptions.EstoqueInsulficienteException;
+import model.exceptions.EstoqueInsuficienteException;
 
 public class Bomba {
     private int idBomba;
@@ -15,9 +15,8 @@ public class Bomba {
 
     public void abastecer(double quantidade) {
         if (quantidade > quantidadeDisponivel) {
-            throw new EstoqueInsulficienteException("Estoque insulficiente");
+            throw new EstoqueInsuficienteException("Estoque insuficiente");
         }
-        System.out.println("Abastecido");
         quantidadeDisponivel -= quantidade;
     }
 

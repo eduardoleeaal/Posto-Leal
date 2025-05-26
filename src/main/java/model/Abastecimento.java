@@ -21,9 +21,9 @@ public class Abastecimento implements Registro{
     @Override
     public String gerarLog() {
         return "ID Bomba: " + bomba.getIdBomba() +
-                "CPF Cliente: " + cliente.getCpf() +
-                "Litros Abastecidos: " + litros +
-                "Valor total: R$" + valorTotal +
-                "Data/Hora: " + dataHora.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss"));
+                ", CPF Cliente: " + cliente.getCpf() +
+                ", Litros Abastecidos: " + litros +
+                ", Valor total: R$" + valorTotal +
+                ", Data/Hora: " + dataHora.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss"));
     }
 }
