@@ -1,0 +1,24 @@
+ID Bomba: 1,
+CPF Cliente: 000.000.000-00,
+Litros Abastecidos: 15.92356687898089,
+Valor total: R$100.0,
+Funcionário: Temp,
+  Matricula: 1064,
+Data/Hora: 27/05/2025 15:13:46
+======
+ID Bomba: 2,
+CPF Cliente: 000.000.000-00,
+Litros Abastecidos: 10.822510822510822,
+Valor total: R$50.0,
+Funcionário: Temp,
+  Matricula: 1064,
+Data/Hora: 27/05/2025 15:13:59
+======
+ID Bomba: 3,
+CPF Cliente: 000.000.000-00,
+Litros Abastecidos: 65.57377049180329,
+Valor total: R$400.0,
+Funcionário: Temp,
+  Matricula: 1064,
+Data/Hora: 27/05/2025 15:14:15
+======

@@ -23,6 +23,8 @@ public class PostoController {
     public PostoController() {
         this.bombas = new HashMap<>();
         this.historicoAbastecimentos = new ArrayList<>();
+        this.funcionarios = new HashMap<>();
+        this.clientes = new HashMap<>();
     }
 
     /**
