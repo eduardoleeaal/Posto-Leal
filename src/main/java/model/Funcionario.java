@@ -1,9 +1,9 @@
 package model;
 
 public class Funcionario extends Pessoa{
-    private String matricula;
+    private int matricula;
 
-    public Funcionario(String nome, String cpf, String matricula) {
+    public Funcionario(String nome, String cpf, int matricula) {
         super(nome, cpf);
         this.matricula = matricula;
     }
@@ -12,5 +12,9 @@ public class Funcionario extends Pessoa{
     public String exibirInformacoes() {
         return super.exibirInformacoes() +
                 "\nMatricula: " + this.matricula;
+    }
+
+    public int getMatricula() {
+        return matricula;
     }
 }

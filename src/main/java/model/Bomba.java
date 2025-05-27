@@ -7,21 +7,12 @@ public class Bomba {
     private double quantidadeDisponivel = 0.0;
     private Combustivel combustivel;
 
-    public Bomba(int idBomba, double quantidadeDisponivel, Combustivel combustivel) {
+    public Bomba(int idBomba, Combustivel combustivel, double quantidadeDisponivel) {
         this.idBomba = idBomba;
-        this.quantidadeDisponivel = quantidadeDisponivel;
         this.combustivel = combustivel;
-    }
-    public Bomba(int idBomba, double quantidadeDisponivel) {
-        this.idBomba = idBomba;
         this.quantidadeDisponivel = quantidadeDisponivel;
-        this.combustivel = null;
     }
-    public Bomba(int idBomba) {
-        this.idBomba = idBomba;
-        this.quantidadeDisponivel = 0.0;
-        this.combustivel = null;
-    }
+
 
     public void abastecer(double quantidade) {
         if (quantidade > quantidadeDisponivel) {
@@ -44,10 +35,8 @@ public class Bomba {
 
     @Override
     public String toString() {
-        return "Bomba{" +
-                "idBomba=" + idBomba +
-                ", quantidadeDisponivel=" + quantidadeDisponivel +
-                ", combustivel=" + combustivel +
-                '}';
+        return "\nBomba ID: " + idBomba +
+                "\nQuantidade de Combustivel: " + quantidadeDisponivel +
+                "\nCombustivel: " + combustivel.getNome() + "\n";
     }
 }
