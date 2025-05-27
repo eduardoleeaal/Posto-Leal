@@ -1,0 +1,18 @@
+ID Bomba: 5,
+CPF Cliente: 111.222.333-44,
+Litros Abastecidos: 10.714285714285715,
+Valor total: R$60.0,
+Data/Hora: 27/05/2025 11:48:34
+===
+ID Bomba: 5,
+CPF Cliente: 123.456.789-00,
+Litros Abastecidos: 3.5714285714285716,
+Valor total: R$20.0,
+Data/Hora: 27/05/2025 11:48:34
+===
+ID Bomba: 5,
+CPF Cliente: 222.333.444-55,
+Litros Abastecidos: 10.714285714285715,
+Valor total: R$60.0,
+Data/Hora: 27/05/2025 11:48:34
+===
