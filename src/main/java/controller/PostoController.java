@@ -65,11 +65,6 @@ public class PostoController {
         } catch (java.io.IOException e) {
             System.err.println("Erro ao gerar relatório: " + e.getMessage());
         }
-        // Lógica a ser implementada:
-        // 1. Criar um StringBuilder ou similar.
-        // 2. Iterar sobre 'historicoAbastecimentos'.
-        // 3. Para cada abastecimento, chamar 'abastecimento.gerarLog()' e adicionar à string.
-        // 4. Usar as classes de I/O do Java para escrever a string final em um arquivo .txt.
     }
 
     public String listarBombas(){

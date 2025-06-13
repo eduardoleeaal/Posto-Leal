@@ -13,7 +13,6 @@ public class PostoView {
     Scanner sc = new Scanner(System.in);
     PostoController pc = new PostoController();
 
-    // Combustíveis disponíveis (poderiam vir do controller)
     private Combustivel gasolina = new Combustivel("Gasolina", 6.28);
     private Combustivel etanol = new Combustivel("Etanol", 4.62);
     private Combustivel diesel = new Combustivel("Diesel", 6.10);
